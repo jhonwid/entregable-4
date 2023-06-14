@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply bg-primary text-white p-2
+}
+
+html {
+    background-image: url(/public/images/blue2.jpg);  
+    max-width: 1024px; 
+    max-height: auto;
+}
+
+article  {
+    /* background-image: url(/public/images/blue1.jpg); */
+    background-color: lightskyblue;
+    width: 100%;
+    height: auto; 
+}
