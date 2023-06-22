@@ -12,17 +12,17 @@ const User = ({user, deleteUser, changeShowModal, setIsUserToUpdate}) => {
   }
 
   return (
-   <article className='arti_user text-left gap-6 pl-3 pr-3 pt-4 pb-4 space-y-4 rounded-md'> 
+   <article className='arti_user text-left gap-6 pl-3 pr-3 pt-4 pb-4 space-y-4 rounded-md bg-gradient-to-t from-blue-300 to-blue-600'> 
 
       <h4 className='text_name text-2xl'>{user.first_name} {user.last_name}</h4>
 
       <div>
-        <h5 className='text-lg text-gray-100'>CORREO</h5>
+        <h5 className='text-lg text-gray-500'>CORREO</h5>
         <span className='text-lg'>{user.email}</span>
       </div>
 
       <div className='text_birthday'>
-        <h5 className='text-lg text-gray-100'>CUMPLEAÑOS</h5>
+        <h5 className='text-lg text-gray-500'>CUMPLEAÑOS</h5>
         <span className='text-lg'><i className='bx bx-gift p-1'></i>{user.birthday || "Sin datos"}</span>
       </div>
 

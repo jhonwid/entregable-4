@@ -5,8 +5,9 @@ import ModalForm from './components/ModalForm'
 import axios from 'axios'
 import { useEffect } from 'react'
 import { data } from 'autoprefixer'
-import ListUser from './components/ListUser'
-// import UserList from './components/userList'
+import UserList from './components/UserList'
+
+
 
 const BASE_URL = "https://users-crud.academlo.tech"
 
@@ -90,18 +91,12 @@ function App() {
   resetModalForm={resetModalForm}
   /> 
 
-  {/* <UserList 
-  users={users} 
-  deleteUser={deleteUser}
-  changeShowModal={changeShowModal}
-  setIsUserToUpdate={setIsUserToUpdate}
-  /> */}
-
-  <ListUser 
-  users={users} 
-  deleteUser={deleteUser}
-  changeShowModal={changeShowModal}
-  setIsUserToUpdate={setIsUserToUpdate}/>
+  <UserList 
+    users={users} 
+    deleteUser={deleteUser}
+    changeShowModal={changeShowModal}
+    setIsUserToUpdate={setIsUserToUpdate}
+  />
 
 </main>
   )

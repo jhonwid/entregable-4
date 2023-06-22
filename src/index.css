@@ -9,14 +9,15 @@
 }
 
 html {
-    background-image: url(/public/images/blue2.jpg);  
+    background: linear-gradient(to right, #f05053 80%, #e1eec3);
+    /* background-image: url(/public/images/blue2.jpg);  
     max-width: 1024px; 
-    max-height: auto;
-}
+    max-height: auto; */
+} 
 
-article  {
-    /* background-image: url(/public/images/blue1.jpg); */
+/* article  {
+    background-image: url(/public/images/blue1.jpg);
     background-color: lightskyblue;
     width: 100%;
     height: auto; 
-}
+} */
